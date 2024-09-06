@@ -17,10 +17,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.codeborne:selenide:7.4.2")
-    testImplementation("org.testng:testng:7.10.2")
-    testImplementation("org.slf4j:slf4j-api:2.0.7")
-    testImplementation("org.slf4j:slf4j-simple:2.0.7")
+    implementation("com.codeborne:selenide:7.4.2")
+    implementation("org.testng:testng:7.10.2")
+    implementation("org.slf4j:slf4j-api:2.0.7")
+    implementation("org.slf4j:slf4j-simple:2.0.7")
 }
 
 tasks.test {
